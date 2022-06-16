@@ -6,15 +6,17 @@ body{
 background: url(./background.png);
 background-size: 100vw;
 background-repeat: no-repeat;
-   Padding: 0;
-   Margin: 0;
-   height: 100vh;
+background-position: center;
+height: 100vh;
+padding: 0;
+margin: 0;
    
 
 }
 nav{
+
 background-color: black;
-bottom: 0vw;
+
 width: 100vw;
 height: 4vw;
 
@@ -28,7 +30,7 @@ height: 4vw;
 .icons{
    display: flex;
    justify-content: space-around;
-   align-items: flex-start;
+   align-items: flex-end;
 font-size:0vw;
 position:absolute;
 z-index: 999 ;
@@ -68,29 +70,19 @@ color: unset;
 
 
 .nuullity{
+   color: rgb(162, 255, 250);
    position: relative;
    z-index: 5;
    display:flex;
    justify-content: center;
   
    
-   top: 20%;
-   
-}
-
-#nuullity {
-
-width: 17vw;
+   top: 27vh;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;   
+font-size: 3vw;
 
 }
-
-
-
-.button{
-
-
-}
-
 
 #enter{
   
@@ -98,10 +90,44 @@ width: 17vw;
    font-size: 1vw;
    height: 2vw;
    width: 10vw;
-   top: 75%;
+   top: 60vh;
    margin-left: 45vw;
    position:absolute;
    cursor: pointer;
    z-index:2;
    
+   }
+   .text{
+      color: aquamarine;
+      text-align: center;
+      position: relative;
+z-index: 3;
+
+display: flex;
+justify-content: center;
+margin-top: 35vh;
+
+font-size: 2vw;
+
+
+   }
+
+
+
+
+
+
+   #disc{
+position: relative;
+width: 2vw;
+bottom: -0.8vh;
+   }
+   #ending{
+
+position: relative;
+z-index: 888;
+      font-size: 1.5vw;
+bottom: 0;
+
+
    }
