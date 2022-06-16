@@ -1,0 +1,107 @@
+
+
+
+body{
+
+background: url(./background.png);
+background-size: 100vw;
+background-repeat: no-repeat;
+   Padding: 0;
+   Margin: 0;
+   height: 100vh;
+   
+
+}
+nav{
+background-color: black;
+bottom: 0vw;
+width: 100vw;
+height: 4vw;
+
+}
+
+
+
+
+
+
+.icons{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+font-size:0vw;
+position:absolute;
+z-index: 999 ;
+width: 100vw;
+}
+#git{
+   margin-top: 0.5vw;
+   width: 3vw;
+}
+#email{
+   margin-top: 0.5vw;
+   width: 3vw;
+}
+#instagram{
+   margin-top: 0.5vw;
+   width: 3vw;
+}
+#symbol{
+   margin-top: 0.5vw;
+   width: 3vw;
+
+
+}
+
+
+
+
+
+
+
+a{
+text-decoration: none;
+color: unset;
+
+}
+
+
+
+.nuullity{
+   position: relative;
+   z-index: 5;
+   display:flex;
+   justify-content: center;
+  
+   
+   top: 20%;
+   
+}
+
+#nuullity {
+
+width: 17vw;
+
+}
+
+
+
+.button{
+
+
+}
+
+
+#enter{
+  
+   color: black;
+   font-size: 1vw;
+   height: 2vw;
+   width: 10vw;
+   top: 75%;
+   margin-left: 45vw;
+   position:absolute;
+   cursor: pointer;
+   z-index:2;
+   
+   }
