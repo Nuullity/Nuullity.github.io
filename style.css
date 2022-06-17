@@ -1,17 +1,14 @@
 body {
 
-   background: url(./background.png);
-   background-size: 100vw;
-   background-repeat: no-repeat;
-   background-position: center;
-   height: 100vh;
-   padding: 0;
-   margin: 0;
+   background: url(./tst.png);
+   background-size: cover;
+      background-repeat: no-repeat;
+ 
 
 
 }
 nav {
-
+display: flex;
    background-color: black;
 
    width: 100vw;
@@ -93,9 +90,13 @@ a {
 
 }
 #disc {
+
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
    position: relative;
    width: 2vw;
-   bottom: -0.8vh;
+   
 }
 
 #ending {
@@ -103,7 +104,7 @@ a {
    position: relative;
    z-index: 888;
    font-size: 1.5vw;
-   bottom: 0;
+   
 
 
 }
