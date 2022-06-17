@@ -1,0 +1,154 @@
+<<<<<<< HEAD
+html {
+  
+    --alt: 7vh;
+--alt-txt: 40vh;
+height: 100vh;
+=======
+body {
+
+   background: url(./tst.png);
+   background-size: cover;
+      background-repeat: no-repeat;
+ 
+
+>>>>>>> 12e1f378ac00b4a9b52e72871b2b339cd00b1845
+
+}
+
+body {
+    margin: 0;
+
+
+    background: url(./wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: var(--alt);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+.superior {
+    height: var(--alt);
+    color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+<<<<<<< HEAD
+
+    background-color: black;
+    width: 100vw;
+    height: var(--alt);
+=======
+display: flex;
+   background-color: black;
+
+   width: 100vw;
+   height: 4vw;
+
+}
+.icons {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   font-size: 0vw;
+   position: absolute;
+   z-index: 999;
+   width: 100vw;
+}
+#git {
+   margin-top: 0.5vw;
+   width: 3vw;
+>>>>>>> 12e1f378ac00b4a9b52e72871b2b339cd00b1845
+}
+
+
+.nuullity {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#nuullity {
+
+    margin-top: var(--alt-txt);
+    position: absolute;
+    font-size: 8vw;
+
+}
+
+#text {
+margin-top: calc(var(--alt-txt) + 20vh);
+
+    position: absolute;
+    z-index: 1;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+#ending{
+height: 95vh;
+
+display: flex;
+justify-content: center;
+align-items:flex-end;
+    font-size: 1.5vw;
+
+
+}
+<<<<<<< HEAD
+=======
+#disc {
+
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+   position: relative;
+   width: 2vw;
+   
+}
+
+#ending {
+
+   position: relative;
+   z-index: 888;
+   font-size: 1.5vw;
+   
+>>>>>>> 12e1f378ac00b4a9b52e72871b2b339cd00b1845
+
+
+
+
+
+
+@media all and (min-width:0px) and (max-width: 720px) {
+    html {
+        --alt: 0;
+
+    }
+
+    nav {
+        display: none;
+
+    }
+
+
+ 
+        body {
+            margin: 0;
+        
+        
+            background: url(./tst.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: var(--alt);
+            width: 100vw;
+            overflow-x: hidden;
+        }
+    }
