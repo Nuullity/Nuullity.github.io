@@ -1,0 +1,103 @@
+html {
+  
+    --alt: 7vh;
+--alt-txt: 40vh;
+height: 100vh;
+
+}
+
+body {
+    margin: 0;
+
+
+    background: url(./wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: var(--alt);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+.superior {
+    height: var(--alt);
+    color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+
+    background-color: black;
+    width: 100vw;
+    height: var(--alt);
+}
+
+
+.nuullity {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#nuullity {
+
+    margin-top: var(--alt-txt);
+    position: absolute;
+    font-size: 8vw;
+
+}
+
+#text {
+margin-top: calc(var(--alt-txt) + 20vh);
+
+    position: absolute;
+    z-index: 1;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+#ending{
+height: 95vh;
+
+display: flex;
+justify-content: center;
+align-items:flex-end;
+    font-size: 1.5vw;
+
+
+}
+
+
+
+
+
+
+@media all and (min-width:0px) and (max-width: 720px) {
+    html {
+        --alt: 0;
+
+    }
+
+    nav {
+        display: none;
+
+    }
+
+
+ 
+        body {
+            margin: 0;
+        
+        
+            background: url(./tst.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: var(--alt);
+            width: 100vw;
+            overflow-x: hidden;
+        }
+    }
