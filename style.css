@@ -1,10 +1,20 @@
+
 html {
-  
-    --alt: 7vh;
---alt-txt: 40vh;
+      --alt: 7vh; 
+    --alt-txt: 50vh;
+    --wid-icon:5vh;
 height: 100vh;
+;
 
 }
+
+a{
+text-decoration: none;
+color: unset;
+}
+
+
+
 
 body {
     margin: 0;
@@ -27,7 +37,13 @@ body {
     justify-content: space-around;
     align-items: center;
 
+
 }
+.icon{
+
+    width: var(--wid-icon);
+}
+
 
 nav {
 
@@ -43,61 +59,60 @@ nav {
     text-align: center;
 }
 
+
+#symbol{
+width: 16vw;
+margin-top:calc(var(--alt-txt ) - 35vh);
+
+
+}
+
+
 #nuullity {
 
     margin-top: var(--alt-txt);
     position: absolute;
+    color:rgb(28, 158, 201);
+  
     font-size: 8vw;
 
 }
 
 #text {
-margin-top: calc(var(--alt-txt) + 20vh);
-
-    position: absolute;
+margin-top: calc(var(--alt-txt) + 23vh);
+font-family: monospace;    position: absolute;
     z-index: 1;
     font-size: 2.5vw;
     text-align: center;
+    
+    color:rgb(28, 158, 201);
+
+
+
 }
 
 #ending{
-height: 95vh;
-
+height: 100vh;
+position: relative;
+z-index: 2;
 display: flex;
 justify-content: center;
 align-items:flex-end;
-    font-size: 1.5vw;
+color:rgb(28, 158, 201);
+font-size: 2vw;
+bottom: 0;
 
 
+}
+
+#disc {
+    position: absolute;
+    
+z-index: 999;
+left: 38vw;
+    width: 2vw;
 }
 
 
 
 
-
-
-@media all and (min-width:0px) and (max-width: 720px) {
-    html {
-        --alt: 0;
-
-    }
-
-    nav {
-        display: none;
-
-    }
-
-
- 
-        body {
-            margin: 0;
-        
-        
-            background: url(./tst.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position-y: var(--alt);
-            width: 100vw;
-            overflow-x: hidden;
-        }
-    }
