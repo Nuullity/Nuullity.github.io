@@ -153,10 +153,12 @@ top: 10vh;
 }
 
 #playlist{
-position: absolute;
-top: 15vh;
-
-
+    position: absolute;
+    top: 15vh;
+  width:80vw ;
+  height: 51vh;
+  
+    
 }
 
 
