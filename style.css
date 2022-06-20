@@ -8,6 +8,7 @@ height: 100vh;
 
 }
 
+
 a{
 text-decoration: none;
 color: unset;
@@ -21,11 +22,13 @@ body {
 
 
     background: url(./wallpaper.png);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     background-position-y: var(--alt);
     width: 100vw;
+ 
     overflow-x: hidden;
+   
 }
 
 
@@ -80,7 +83,8 @@ margin-top:calc(var(--alt-txt ) - 35vh);
 
 #text {
 margin-top: calc(var(--alt-txt) + 23vh);
-font-family: monospace;    position: absolute;
+font-family: monospace;  
+  position: absolute;
     z-index: 1;
     font-size: 2.5vw;
     text-align: center;
@@ -91,6 +95,20 @@ font-family: monospace;    position: absolute;
 
 }
 
+.text_music{
+display: flex;
+justify-content: center;
+
+
+
+}
+
+#text_music{
+position: absolute;
+top: calc(var(--alt-txt) + 60vh);
+    color:rgb(28, 158, 201);
+
+}
 
 
 .musics{
@@ -98,7 +116,7 @@ font-family: monospace;    position: absolute;
 position: relative;
 padding: 0;
 
-    margin-top: 50vh;
+    margin-top: 70vh;
     margin-left: 20vw;
     margin-right: 20vw;
  width: 60vw;
@@ -112,13 +130,29 @@ padding: 0;
 
 
 
-.nova{
+#text_playlist{
+    position: absolute;
+    
+        color:rgb(28, 158, 201);
+    
+    }
+
+
+
+
+
+.playlist{
 display: flex;
 justify-content: center;
 position: relative;
 z-index: 55;
-top: 120vh;
+top: 10vh;
     
+}
+
+#playlist{
+position: absolute;
+top: 15vh;
 
 
 }
