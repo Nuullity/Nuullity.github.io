@@ -1,0 +1,71 @@
+
+
+/* fontes (inicio) */
+
+@font-face {
+    font-family: 'Josefin' ;
+    src: url(/Fonts/JosefinSans-VariableFont_wght.ttf);
+
+
+}
+@font-face {
+ 
+font-family: 'Dancing';
+src: url(/Fonts/DancingScript-VariableFont_wght.ttf)
+
+}
+
+/* fontes (fim) */
+
+a{text-decoration: none;
+}
+
+
+html{
+    
+background-color: black;
+}
+
+
+.nuullity{
+display: flex;
+justify-content: center;
+
+color:rgb(28, 158, 201);
+text-align: center;
+width: 100vw;
+
+
+}
+
+#nuullity{
+    position: absolute;
+font-family:'josefin';
+font-size: 10em;
+
+}
+
+#intro{
+
+    margin-top: 4em;
+    position: absolute;
+    font-family:'dancing' ;
+font-size: 5em;
+
+}
+.button{
+display: flex;
+justify-content: center;
+margin-top: 37em;
+}
+#button{
+
+cursor: pointer;
+padding: 0;
+margin: 0;
+width: 20em;
+height: 3em;
+border-radius: 10px;
+color:rgb(28, 158, 201);
+background-color:dimgray;
+}
