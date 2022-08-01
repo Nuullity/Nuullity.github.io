@@ -1,14 +1,19 @@
 
 
+
+
+
   for (let cont = 10; cont < 11; cont--) {
- if ( cont < 1)
+ if ( cont < 2)
 { 
-   alert(`Denovo Otario`);
-   cont = 10 
+    location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley';
+   
 
 }
 
 
     // Runs 5 times, with values of step 0 through 4.
-    alert(`Contador de clicks ${cont}`);
+    alert(`clicks ${cont}`);
   }
+
+  
