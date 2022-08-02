@@ -3,17 +3,15 @@
 
 
 
-  for (let cont = 10; cont < 11; cont--) {
- if ( cont < 2)
-{ 
-    location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley';
-   
+let login = prompt('Manda uma senha Pro pai ai (apenas numeros (positivos))');
+let cont = 0
+  for (let cont = 0; cont != login; cont++) {
+console.log(cont);
+
+  }
+if (cont = login){
+
+alert(`tua senha é ${cont}`)
 
 }
-
-
-    // Runs 5 times, with values of step 0 through 4.
-    alert(`clicks ${cont}`);
-  }
-
   
